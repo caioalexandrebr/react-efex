@@ -1,0 +1,51 @@
+{
+  "members": [
+    {
+      "name": "Caio Alexandre Botelho de Oliveira",
+      "birth": "14/06/1998",
+      "position": "01",
+      "contact": {
+        "phone": "5511982004537",
+        "email": "caioalexandre.br@gmail.com"
+      },
+      "social": {
+        "instagram": "caioalexandrebr",
+        "facebook": "caioalexandrebr",
+        "twitter": "caioalexandrebr"
+      }
+    }
+  ],
+  "team": {
+    "name": "Efex Team",
+    "about": "Lorem Ipsum is simply dummy",
+    "since": "01/12/2019",
+    "contact": {
+      "phone": "5511982004537",
+      "email": "efex.team@hotmail.com"
+    },
+    "social": {
+      "instagram": "caioalexandrebr",
+      "facebook": "caioalexandrebr",
+      "twitter": "caioalexandrebr"
+    }
+  },
+  "missions": [
+    {
+      "name": "Welcome",
+      "date": "26/01/2020",
+      "place": "Araçoiaba, PE"
+    },
+    {
+      "name": "Fronteira sem lei",
+      "date": "19/01/2020",
+      "place": "Cabo de Santo Agostinho, PE"
+    }
+  ],
+  "partners": [
+    {
+      "name": "Nome parceiro",
+      "about": "Lorem Ipsum is simply dummy",
+      "since": "01/12/2019"
+    }
+  ]
+}

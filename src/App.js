@@ -23,4 +23,21 @@ function App() {
   );
 }
 
+let record = {
+  data: null,
+  done: false,
+  thenable: null
+};
+
+record.thenable = fetch("http://localhost:3000/posts")
+  .then(res => res.json())
+  .then(data => {
+    console.log(data);
+    record.done = true;
+    record.data = data.message;
+  })
+  .catch(err => {
+    throw err;
+  });
+
 export default App;
