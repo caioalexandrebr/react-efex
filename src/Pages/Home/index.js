@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Image from '../../assets/img/bg-soldier.png';
 import { ThemeProvider, Container, Row, Col } from '@gympass/yoga';
 
+import Title from '../../components/Title';
 import Button from '../../components/Button';
 
 const Box = styled.div`
@@ -25,6 +26,7 @@ function Home() {
             </Box>
           </Col>
           <Col xxs={12} md={6}>
+            <Title>OAOAOF <span>afafw</span></Title>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium turpis turpis. Nulla facilisi. Duis molestie mauris eu justo iaculis, eu placerat ante ultricies. Etiam et odio sit amet lacus sodales imperdiet sed nec felis. Sed venenatis augue eros, id blandit erat tempor id. Nulla lacinia purus vel augue accumsan placerat. Phasellus bibendum eros vel neque consectetur interdum. Pellentesque quis congue purus. Quisque scelerisque in eros id efficitur. Vestibulum at sagittis orci. Pellentesque tempus vehicula congue. Aliquam erat volutpat. Donec vel tincidunt lectus. Aenean sit amet faucibus arcu. Quisque posuere magna lacinia erat cursus, ac molestie sapien rhoncus. Etiam vitae velit eget turpis posuere finibus.
             </p>
