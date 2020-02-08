@@ -8,7 +8,7 @@ const Text = styled.h3`
   color: ${props => props.primary ? "white" : "black"};
 
   span {
-    color: red;
+    color: #009748;
   }
 `;
 
