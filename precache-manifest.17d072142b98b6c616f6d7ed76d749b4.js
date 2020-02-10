@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c031ae074d67655addfc8eada803a7c3",
+    "revision": "019cd3b2117179157f0670d2d009bbaa",
     "url": "/react-efex/index.html"
   },
   {
-    "revision": "d14fd2c46c1c2c6da368",
+    "revision": "b7cb3d89982d20fa6405",
     "url": "/react-efex/static/css/main.595d0ed0.chunk.css"
   },
   {
-    "revision": "49ef53682043d884cb9f",
-    "url": "/react-efex/static/js/2.6d906c03.chunk.js"
+    "revision": "985f7e88d37362163a7c",
+    "url": "/react-efex/static/js/2.2dd8591e.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/react-efex/static/js/2.6d906c03.chunk.js.LICENSE.txt"
+    "url": "/react-efex/static/js/2.2dd8591e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d14fd2c46c1c2c6da368",
-    "url": "/react-efex/static/js/main.ee1f7e23.chunk.js"
+    "revision": "b7cb3d89982d20fa6405",
+    "url": "/react-efex/static/js/main.2846a4d5.chunk.js"
   },
   {
     "revision": "e120d5eaa1849cf91050",
@@ -26,5 +26,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "23a4d0e338e06bead7dd24a76e86edd0",
     "url": "/react-efex/static/media/bg-soldier.23a4d0e3.jpg"
+  },
+  {
+    "revision": "f343ace909bbd5de424e7b1b1df71205",
+    "url": "/react-efex/static/media/splash.f343ace9.png"
   }
 ]);
