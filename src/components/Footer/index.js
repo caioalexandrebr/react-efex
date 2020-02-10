@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { device } from '../Device';
 
@@ -11,14 +11,6 @@ const FooterDefault = styled.footer`
   }
 `;
 
-class Footer extends Component {
-  render() {
-    return (
-      <FooterDefault>
-        <p>Copyright © 2020 EFEX Team</p>
-      </FooterDefault>
-    );
-  }
-}
+const Footer = () => <FooterDefault><p>Copyright © 2020 EFEX Team</p></FooterDefault>;
 
 export default Footer;
