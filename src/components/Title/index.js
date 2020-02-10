@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Text = styled.h3`
+  margin: 0;
   font-size: 40px;
   font-weight: 100;
   text-transform: uppercase;
