@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 const ButtonDefault = styled.button`
@@ -12,12 +12,6 @@ const ButtonDefault = styled.button`
   font-family: 'Oswald', sans-serif;
 `;
 
-class Button extends Component {
-  render() {
-    return (
-      <ButtonDefault>{this.props.children}</ButtonDefault>
-    );
-  }
-}
+const Button = ({ children, ...props }) => <ButtonDefault {...props} >{children}</ButtonDefault>;
 
 export default Button;
