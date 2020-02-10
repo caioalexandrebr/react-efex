@@ -2,7 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col } from '@gympass/yoga';
 
-import Button from '../../components/Button';
+import Text from '../Text';
+import Link from '../Link';
+import Title from '../Title';
+import Button from '../Button';
 
 const Section = styled.section`
   padding: 60px 0;
@@ -12,6 +15,7 @@ const Section = styled.section`
 const Form = styled.form`
   input, textarea {
     width: 100%;
+    outline: none;
     color: #898989;
     font-size: 16px;
     padding: 15px 20px;
@@ -32,10 +36,14 @@ const Form = styled.form`
 function SectionContact() {
   return (
     <Section>
-      <Container fluid>
+      <Container>
         <Row>
           <Col xxs={12} md={6}>
-            olá mundo
+            <Title inverted>Lorem <span>ipsum</span></Title>
+            <Text inverted>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget lectus ullamcorper, sollicitudin nisi et.</Text>
+            <Text inverted>Mauris et sapien mauris. Vivamus suscipit libero a sem maximus, quis faucibus est facilisis. Aenean nisi odio, finibus sed mauris sed, rhoncus pulvinar ante. Maecenas feugiat ullamcorper ex sed dapibus. Nulla ultricies ante sed blandit blandit. Quisque sit amet libero ligula.</Text>
+            <Link mb={5} block href="tel:+5511982004537">+55 (11) 9 8200-4537</Link>
+            <Link mb={15} block href="mailto: efex.team@hotmail.com">efex.team@hotmail.com</Link>
           </Col>
           <Col xxs={12} md={6}>
             <Form>
