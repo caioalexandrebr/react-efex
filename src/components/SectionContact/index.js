@@ -61,7 +61,7 @@ function SectionContact() {
                   <textarea></textarea>
                 </Col>
                 <Col xxs={12}>
-                  <Button>Send</Button>
+                  <Button inverted>Send</Button>
                 </Col>
               </Row>
             </Form>
