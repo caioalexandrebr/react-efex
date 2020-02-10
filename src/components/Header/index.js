@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import React, { Component } from 'react';
-import { Container, Row, Col } from '@gympass/yoga';
 
 import Nav from '../Nav';
 import Title from '../Title';
@@ -21,8 +20,10 @@ const HeaderDefault = styled.header`
 const Overlay = styled.div`
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(26,26,26,0.2) 0%, rgba(26,26,26,0.2) 30%, rgba(26,26,26,1) 80%, rgba(26,26,26,1) 100%);
+  display: flex;
+  align-items: center;
   position: absolute;
+  background: linear-gradient(to bottom, rgba(26,26,26,0.2) 0%, rgba(26,26,26,0.2) 30%, rgba(26,26,26,1) 80%, rgba(26,26,26,1) 100%);
 `;
 
 class Header extends Component {
@@ -31,17 +32,14 @@ class Header extends Component {
       <>
         <Nav/>
         <HeaderDefault>
-          <Overlay/>
-          <Container>
-            <Row>
-              <Col xxs={12}>
-                <Title inverted>Lorem ipsum</Title>
-                <Title><span>dolor sit amet</span></Title>
-                <Title inverted>Mauris et sapien</Title>
-                <Button>Lorem ipsum</Button>
-              </Col>
-            </Row>
-          </Container>
+          <Overlay>
+            <div>
+              <Title inverted>Lorem ipsum</Title>
+              <Title><span>dolor sit amet</span></Title>
+              <Title inverted>Mauris et sapien</Title>
+              <Button>Lorem ipsum</Button>
+            </div>
+          </Overlay>
         </HeaderDefault>
       </>
     );
