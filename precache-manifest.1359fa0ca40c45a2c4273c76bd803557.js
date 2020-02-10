@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3a762aadcd65ce3dc44f7688f454098",
+    "revision": "a41fb63746378dcc50a1075fada55456",
     "url": "/react-efex/index.html"
   },
   {
-    "revision": "05cc493e8611ff6d96d2",
+    "revision": "e5e3e4e444abd18e0e14",
     "url": "/react-efex/static/css/main.595d0ed0.chunk.css"
   },
   {
-    "revision": "985f7e88d37362163a7c",
-    "url": "/react-efex/static/js/2.2dd8591e.chunk.js"
+    "revision": "1f4caab1781f2891cbec",
+    "url": "/react-efex/static/js/2.252fe4e8.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/react-efex/static/js/2.2dd8591e.chunk.js.LICENSE.txt"
+    "url": "/react-efex/static/js/2.252fe4e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05cc493e8611ff6d96d2",
-    "url": "/react-efex/static/js/main.ad84ecc8.chunk.js"
+    "revision": "e5e3e4e444abd18e0e14",
+    "url": "/react-efex/static/js/main.7db25646.chunk.js"
   },
   {
     "revision": "e120d5eaa1849cf91050",
     "url": "/react-efex/static/js/runtime-main.98d927dc.js"
+  },
+  {
+    "revision": "24ea892de455e084ae1cbf4f16bae998",
+    "url": "/react-efex/static/media/bg-header.24ea892d.jpg"
   },
   {
     "revision": "836efb767b929433ad3ecf0146f34704",
