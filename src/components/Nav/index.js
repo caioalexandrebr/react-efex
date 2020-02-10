@@ -6,10 +6,10 @@ class Nav extends Component {
   render () {
     return (
       <Menu id="slide">
-        <a href="#home" className="bm-item" tabindex="0"><span>Home</span></a>
-        <a href="#home" className="bm-item" tabindex="0"><span>About</span></a>
-        <a href="#home" className="bm-item" tabindex="0"><span>Team</span></a>
-        <a href="#home" className="bm-item" tabindex="0"><span>Contact</span></a>
+        <a href="#home" className="bm-item"><span>Home</span></a>
+        <a href="#home" className="bm-item"><span>About</span></a>
+        <a href="#home" className="bm-item"><span>Team</span></a>
+        <a href="#home" className="bm-item"><span>Contact</span></a>
       </Menu>
     )
   }
