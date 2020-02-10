@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from '@gympass/yoga';
 
-import Nav from '../../components/Nav';
+import Header from '../../components/Header';
 import SectionWhy from '../../components/SectionWhy';
 import SectionContact from '../../components/SectionContact';
 import Footer from '../../components/Footer';
@@ -9,7 +9,7 @@ import Footer from '../../components/Footer';
 function Home() {
   return (
     <ThemeProvider>
-      <Nav/>
+      <Header/>
       <SectionWhy/>
       <SectionContact/>
       <Footer/>
